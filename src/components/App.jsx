@@ -1,16 +1,12 @@
+import { Container } from './Container/Container.styled';
+import { TweetList } from './TweetList/TweetList';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <main>
+      <Container>
+        <TweetList />
+      </Container>
+    </main>
   );
 };

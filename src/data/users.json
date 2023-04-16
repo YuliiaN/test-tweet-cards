@@ -1,0 +1,228 @@
+{
+  "users": [
+    {
+      "user": "Elon Reeve Musk",
+      "tweets": 777,
+      "followers": 100500,
+      "avatar": "avatar 1",
+      "id": "1"
+    },
+    {
+      "user": "Delia Mosciski",
+      "tweets": 88,
+      "followers": 63152,
+      "avatar": "avatar 2",
+      "id": "2"
+    },
+    {
+      "user": "Lee Fay",
+      "tweets": 74,
+      "followers": 88948,
+      "avatar": "avatar 3",
+      "id": "3"
+    },
+    {
+      "user": "Salvador Greenholt",
+      "tweets": 35,
+      "followers": 62025,
+      "avatar": "avatar 4",
+      "id": "4"
+    },
+    {
+      "user": "Patricia Kuhlman",
+      "tweets": 52,
+      "followers": 13854,
+      "avatar": "avatar 5",
+      "id": "5"
+    },
+    {
+      "user": "Grant Rippin",
+      "tweets": 83,
+      "followers": 42365,
+      "avatar": "avatar 6",
+      "id": "6"
+    },
+    {
+      "user": "Melinda Gorczany",
+      "tweets": 90,
+      "followers": 41913,
+      "avatar": "avatar 7",
+      "id": "7"
+    },
+    {
+      "user": "Veronica Gorczany",
+      "tweets": 59,
+      "followers": 67891,
+      "avatar": "avatar 8",
+      "id": "8"
+    },
+    {
+      "user": "Jesus Hessel",
+      "tweets": 55,
+      "followers": 19907,
+      "avatar": "avatar 9",
+      "id": "9"
+    },
+    {
+      "user": "Dave Stark",
+      "tweets": 76,
+      "followers": 83103,
+      "avatar": "avatar 10",
+      "id": "10"
+    },
+    {
+      "user": "Valerie Schinner",
+      "tweets": 39,
+      "followers": 80773,
+      "avatar": "avatar 11",
+      "id": "11"
+    },
+    {
+      "user": "Eloise Torphy",
+      "tweets": 91,
+      "followers": 47747,
+      "avatar": "avatar 12",
+      "id": "12"
+    },
+    {
+      "user": "Esther Marvin",
+      "tweets": 51,
+      "followers": 89202,
+      "avatar": "avatar 13",
+      "id": "13"
+    },
+    {
+      "user": "Dr. Ed Franey",
+      "tweets": 38,
+      "followers": 56274,
+      "avatar": "avatar 14",
+      "id": "14"
+    },
+    {
+      "user": "Donna Cole MD",
+      "tweets": 91,
+      "followers": 77121,
+      "avatar": "avatar 15",
+      "id": "15"
+    },
+    {
+      "user": "Mrs. Jesus Bogan",
+      "tweets": 45,
+      "followers": 15067,
+      "avatar": "avatar 16",
+      "id": "16"
+    },
+    {
+      "user": "Miss Grant Brown",
+      "tweets": 10,
+      "followers": 23549,
+      "avatar": "avatar 17",
+      "id": "17"
+    },
+    {
+      "user": "Sandra Mohr",
+      "tweets": 80,
+      "followers": 54264,
+      "avatar": "avatar 18",
+      "id": "18"
+    },
+    {
+      "user": "Billie Ritchie",
+      "tweets": 75,
+      "followers": 94273,
+      "avatar": "avatar 19",
+      "id": "19"
+    },
+    {
+      "user": "Ian Torp",
+      "tweets": 21,
+      "followers": 82685,
+      "avatar": "avatar 20",
+      "id": "20"
+    },
+    {
+      "user": "Henrietta Runolfsdottir",
+      "tweets": 98,
+      "followers": 14461,
+      "avatar": "avatar 21",
+      "id": "21"
+    },
+    {
+      "user": "Joanne Moen",
+      "tweets": 79,
+      "followers": 71177,
+      "avatar": "avatar 22",
+      "id": "22"
+    },
+    {
+      "user": "Bill Reilly",
+      "tweets": 24,
+      "followers": 22247,
+      "avatar": "avatar 23",
+      "id": "23"
+    },
+    {
+      "user": "Katherine Friesen",
+      "tweets": 60,
+      "followers": 25694,
+      "avatar": "avatar 24",
+      "id": "24"
+    },
+    {
+      "user": "Joey Ferry",
+      "tweets": 54,
+      "followers": 63634,
+      "avatar": "avatar 25",
+      "id": "25"
+    },
+    {
+      "user": "Alyssa Stamm",
+      "tweets": 16,
+      "followers": 5387,
+      "avatar": "avatar 26",
+      "id": "26"
+    },
+    {
+      "user": "Clara Harris",
+      "tweets": 67,
+      "followers": 66486,
+      "avatar": "avatar 27",
+      "id": "27"
+    },
+    {
+      "user": "Homer Dibbert",
+      "tweets": 4,
+      "followers": 64231,
+      "avatar": "avatar 28",
+      "id": "28"
+    },
+    {
+      "user": "Tanya Beier",
+      "tweets": 70,
+      "followers": 35253,
+      "avatar": "avatar 29",
+      "id": "29"
+    },
+    {
+      "user": "Juanita Heidenreich IV",
+      "tweets": 41,
+      "followers": 21141,
+      "avatar": "avatar 30",
+      "id": "30"
+    },
+    {
+      "user": "Dr. Felix Harber",
+      "tweets": 53,
+      "followers": 74635,
+      "avatar": "avatar 31",
+      "id": "31"
+    },
+    {
+      "user": "Lindsay Mayer",
+      "tweets": 40,
+      "followers": 1993,
+      "avatar": "avatar 32",
+      "id": "32"
+    }
+  ]
+}
