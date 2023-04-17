@@ -8,6 +8,7 @@ import {
   Data,
   Button,
 } from './TweetCard.styled';
+import NumberDisplay from 'components/Numeral';
 import avatar from '../../pictures/avatar@2x.png';
 
 export const TweetCard = ({ ...tweet }) => {
@@ -28,7 +29,9 @@ export const TweetCard = ({ ...tweet }) => {
       <Avatar src={avatar} />
       <DataWrapper>
         <Data>{tweet.tweets} tweets</Data>
-        <Data>{followers} followers</Data>
+        <Data>
+          <NumberDisplay number={followers} />
+        </Data>
       </DataWrapper>
       <Button onClick={handleClick} active={following}>
         {btnText}
