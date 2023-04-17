@@ -1,7 +1,9 @@
 @import-normalize; /* bring in normalize.css styles */
+@import '@fontsource/montserrat';
 
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat';
 }
 
 body {

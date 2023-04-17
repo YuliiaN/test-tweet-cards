@@ -12,9 +12,11 @@ import avatar from '../../pictures/avatar@2x.png';
 
 export const TweetCard = ({ ...item }) => {
   const [followers, setFollowers] = useState(item.followers);
+  const [following, setFollowing] = useState(false);
 
   const handleClick = () => {
-    setFollowers(followers + 1);
+    setFollowing(!following);
+    setFollowers(prevState => (following ? prevState - 1 : prevState + 1));
   };
 
   return (
@@ -26,7 +28,9 @@ export const TweetCard = ({ ...item }) => {
         <Data>{item.tweets} tweets</Data>
         <Data>{followers} followers</Data>
       </DataWrapper>
-      <Button onClick={handleClick}>Follow</Button>
+      <Button onClick={handleClick} active={following}>
+        {following ? 'Following' : 'Follow'}
+      </Button>
     </Item>
   );
 };

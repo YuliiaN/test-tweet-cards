@@ -18,6 +18,8 @@ export const Item = styled.li`
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
 
+  line-height: ${({ theme }) => theme.spacing.main};
+
   &::after {
     position: absolute;
     z-index: 10;
@@ -27,7 +29,7 @@ export const Item = styled.li`
     top: calc(50% - 12px);
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ebd8ff;
+    background-color: ${({ theme }) => theme.colors.follow};
     box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
       inset 0px -1.71846px 3.43693px #ae7be3,
       inset 0px 3.43693px 2.5777px #fbf8ff;
@@ -94,10 +96,9 @@ export const DataWrapper = styled.div`
 
 export const Data = styled.p`
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: ${({ theme }) => theme.fontSizes.large};
   text-transform: uppercase;
-  color: #ebd8ff;
+  color: ${({ theme }) => theme.colors.follow};
 `;
 
 export const Button = styled.button`
@@ -105,14 +106,15 @@ export const Button = styled.button`
   height: 50px;
   margin: 0 auto;
 
-  background: #ebd8ff;
+  background-color: ${({ active, theme }) =>
+    active ? theme.colors.following : theme.colors.follow};
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 10.3108px;
 
   font-weight: 600;
-  font-size: 18px;
-  line-height: 1.22;
+  font-size: ${({ theme }) => theme.fontSizes.medium};
   text-transform: uppercase;
-  color: #373737;
+  color: ${({ theme }) => theme.colors.buttonText};
+  transition: background-color 0.2s;
 `;
