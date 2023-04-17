@@ -10,8 +10,8 @@ import {
 } from './TweetCard.styled';
 import avatar from '../../pictures/avatar@2x.png';
 
-export const TweetCard = ({ ...item }) => {
-  const [followers, setFollowers] = useState(item.followers);
+export const TweetCard = ({ ...tweet }) => {
+  const [followers, setFollowers] = useState(tweet.followers);
   const [following, setFollowing] = useState(false);
 
   const handleClick = () => {
@@ -19,17 +19,19 @@ export const TweetCard = ({ ...item }) => {
     setFollowers(prevState => (following ? prevState - 1 : prevState + 1));
   };
 
+  const btnText = following ? 'Following' : 'Follow';
+
   return (
     <Item>
       <Logo />
       <Background />
       <Avatar src={avatar} />
       <DataWrapper>
-        <Data>{item.tweets} tweets</Data>
+        <Data>{tweet.tweets} tweets</Data>
         <Data>{followers} followers</Data>
       </DataWrapper>
       <Button onClick={handleClick} active={following}>
-        {following ? 'Following' : 'Follow'}
+        {btnText}
       </Button>
     </Item>
   );

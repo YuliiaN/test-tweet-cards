@@ -31,6 +31,7 @@ p {
 
 button {
   display: block;
+  cursor: pointer;
 }
 
 img {
