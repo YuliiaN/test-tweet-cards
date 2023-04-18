@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-tweet-cards/static/css/main.b2e4a355.css",
-    "main.js": "/test-tweet-cards/static/js/main.a0b845a4.js",
+    "main.js": "/test-tweet-cards/static/js/main.df45608d.js",
     "static/media/picture@2x.png": "/test-tweet-cards/static/media/picture@2x.014134acdd84a401f00a.png",
     "static/media/montserrat-all-400-normal.woff": "/test-tweet-cards/static/media/montserrat-all-400-normal.327fab0afc997a2d9b16.woff",
     "static/media/avatar@2x.png": "/test-tweet-cards/static/media/avatar@2x.28ca5aa46ca1842da9c7.png",
@@ -13,10 +13,10 @@
     "static/media/montserrat-vietnamese-400-normal.woff2": "/test-tweet-cards/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
     "index.html": "/test-tweet-cards/index.html",
     "main.b2e4a355.css.map": "/test-tweet-cards/static/css/main.b2e4a355.css.map",
-    "main.a0b845a4.js.map": "/test-tweet-cards/static/js/main.a0b845a4.js.map"
+    "main.df45608d.js.map": "/test-tweet-cards/static/js/main.df45608d.js.map"
   },
   "entrypoints": [
     "static/css/main.b2e4a355.css",
-    "static/js/main.a0b845a4.js"
+    "static/js/main.df45608d.js"
   ]
 }
