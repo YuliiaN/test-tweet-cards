@@ -1,35 +1,30 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import users from '../../data/users.json';
 import { List } from './TweetList.styled';
 import { TweetCard } from 'components/TweetCard/TweetCard';
 import LoadMoreBtn from 'components/LoadMore/LoadMore';
 
 export const TweetList = () => {
-  const [tweets, setTweets] = useState([]);
-  const [currentPage, setCurrentPage] = useState(1);
   const data = [...users.users];
   const tweetsPerPage = 8;
+  const [tweets, setTweets] = useState(data.slice(0, tweetsPerPage));
+  const [currentPage, setCurrentPage] = useState(1);
 
-  useEffect(() => {
-    const indexOfLastTweet = currentPage * tweetsPerPage;
-    const indexOfFirstTweet = indexOfLastTweet - tweetsPerPage;
-    const updatedTweets = data.slice(indexOfFirstTweet, indexOfLastTweet);
-    setTweets([...tweets, ...updatedTweets]);
-  }, [data, currentPage, tweetsPerPage]);
-
-  const loadMore = () => {
-    if (currentPage < data.length / tweetsPerPage) {
-      setCurrentPage(currentPage + 1);
-    }
+  const handleLoadMore = () => {
+    const nextPage = currentPage + 1;
+    const nextTweets = data.slice(0, nextPage * tweetsPerPage);
+    setTweets(nextTweets);
+    setCurrentPage(nextPage);
   };
 
   return (
     <>
       <List>
-        {tweets.length > 0 &&
-          tweets.map(tweet => <TweetCard key={tweet.id} {...tweet} />)}
+        {tweets.map(tweet => (
+          <TweetCard key={tweet.id} {...tweet} />
+        ))}
       </List>
-      {tweets.length < data.length && <LoadMoreBtn loadMore={loadMore} />}
+      {tweets.length < data.length && <LoadMoreBtn loadMore={handleLoadMore} />}
     </>
   );
 };

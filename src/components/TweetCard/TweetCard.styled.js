@@ -94,7 +94,7 @@ export const DataWrapper = styled.div`
   align-items: center;
 `;
 
-export const Data = styled.p`
+export const Data = styled.div`
   font-weight: 500;
   font-size: ${({ theme }) => theme.fontSizes.large};
   text-transform: uppercase;
