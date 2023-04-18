@@ -1,16 +1,19 @@
-import { ThemeProvider } from '@emotion/react';
-import theme from 'theme';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import routes from 'routes';
+import Tweets from 'pages/Tweets';
+import Home from 'pages/Home';
 import { Container } from './Container/Container.styled';
-import { TweetList } from './TweetList/TweetList';
 
 export const App = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <main>
-        <Container>
-          <TweetList />
-        </Container>
-      </main>
-    </ThemeProvider>
+    <main>
+      <Container>
+        <Routes>
+          <Route path={routes.HOME} Component={Home} />
+          <Route path={routes.TWEETS} Component={Tweets} />
+          <Route path="*" Component={<Navigate to={routes.HOME} />} />
+        </Routes>
+      </Container>
+    </main>
   );
 };
